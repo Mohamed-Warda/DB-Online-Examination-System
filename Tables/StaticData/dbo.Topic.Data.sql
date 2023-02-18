@@ -1,0 +1,16 @@
+﻿INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (1, 'HTML', 100);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (2, 'CSS', 100);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (3, 'JS', 100);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (4, 'Basics', 200);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (5, 'OOP', 200);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (6, 'TSQL', 300);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (7, 'SQL-Server', 300);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (8, 'Indexs', 300);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (9, 'Views', 300);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (10, 'No-SQL', 400);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (11, 'MVC', 500);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (12, 'Express', 500);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (13, 'Mongoose', 500);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (14, 'Stach', 700);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (15, 'LinkedList', 700);
+INSERT dbo.Topic(Top_id, Top_Name, Crs_id) VALUES (16, 'Queues', 700);

@@ -2,6 +2,8 @@
   [Stu_id] [int] NOT NULL,
   [Fname] [varchar](50) NULL,
   [Lname] [varchar](50) NULL,
+  [Phone] [int] NULL,
+  [Email] [varchar](50) NULL,
   [Address] [varchar](50) NULL,
   [Leader_id] [int] NULL,
   [Did] [int] NULL,

@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Instructor] (
   [Ins_id] [int] NOT NULL,
-  [Lname] [varchar](50) NULL,
   [Fname] [varchar](50) NULL,
+  [Lname] [varchar](50) NULL,
   [Academics_Degree] [varchar](100) NULL,
   [Salary] [int] NULL,
   [Address] [varchar](200) NULL,
