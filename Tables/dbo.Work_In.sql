@@ -12,5 +12,5 @@ ALTER TABLE [dbo].[Work_In]
 GO
 
 ALTER TABLE [dbo].[Work_In]
-  ADD CONSTRAINT [FK_Work_In_Instructor] FOREIGN KEY ([Ins_id]) REFERENCES [dbo].[Instructor] ([Ins_id])
+  ADD CONSTRAINT [FK_Work_In_Instructor] FOREIGN KEY ([Ins_id]) REFERENCES [dbo].[Instructor] ([Ins_id]) ON DELETE CASCADE ON UPDATE CASCADE
 GO

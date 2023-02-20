@@ -10,5 +10,5 @@ ON [PRIMARY]
 GO
 
 ALTER TABLE [dbo].[Department]
-  ADD CONSTRAINT [FK_Department_Instructor] FOREIGN KEY ([Mng_id]) REFERENCES [dbo].[Instructor] ([Ins_id])
+  ADD CONSTRAINT [FK_Department_Instructor] FOREIGN KEY ([Mng_id]) REFERENCES [dbo].[Instructor] ([Ins_id]) ON DELETE SET NULL ON UPDATE CASCADE
 GO
