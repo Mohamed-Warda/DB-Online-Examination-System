@@ -17,5 +17,5 @@ ALTER TABLE [dbo].[Student]
 GO
 
 ALTER TABLE [dbo].[Student]
-  ADD CONSTRAINT [FK_Student_Student] FOREIGN KEY ([Leader_id]) REFERENCES [dbo].[Student] ([Stu_id])
+  ADD CONSTRAINT [FK_Student_Leader] FOREIGN KEY ([Leader_id]) REFERENCES [dbo].[Student] ([Stu_id])
 GO

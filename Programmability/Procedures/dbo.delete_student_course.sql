@@ -1,0 +1,14 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[delete_student_course] @id INT 
+WITH ENCRYPTION 
+AS
+	BEGIN TRY 
+			DELETE FROM Student_Course 
+			WHERE Stu_id = @id
+	END TRY 
+
+	BEGIN CATCH 
+			SELECT 'Error'
+	END CATCH 
+GO

@@ -9,3 +9,5 @@ INSERT dbo.Student_Course(Stu_id, Crs_id, grade) VALUES (3, 700, NULL);
 INSERT dbo.Student_Course(Stu_id, Crs_id, grade) VALUES (4, 300, NULL);
 INSERT dbo.Student_Course(Stu_id, Crs_id, grade) VALUES (4, 600, NULL);
 INSERT dbo.Student_Course(Stu_id, Crs_id, grade) VALUES (4, 700, NULL);
+
+INSERT dbo.Student_Course(Stu_id, Crs_id, grade) VALUES (2, 100, 300);
