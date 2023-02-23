@@ -1,7 +1,8 @@
 ﻿CREATE TABLE [dbo].[Question_Choice] (
   [Qst_id] [int] NOT NULL,
   [Choice] [varchar](150) NOT NULL,
-  CONSTRAINT [PK_Question_Choice] PRIMARY KEY CLUSTERED ([Qst_id], [Choice])
+  [choiceID] [varchar](2) NULL,
+  CONSTRAINT [PK_Question_Choice_1] PRIMARY KEY CLUSTERED ([Qst_id], [Choice])
 )
 ON [PRIMARY]
 GO

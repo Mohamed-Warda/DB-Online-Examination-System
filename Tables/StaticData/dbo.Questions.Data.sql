@@ -68,3 +68,6 @@ INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VA
 INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VALUES (58, 200, 'Every I/o device typically has a waiting queue associated with it.', 't/f', 'true', 1);
 INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VALUES (59, 200, 'A segmented memory model is good for separating code from data.', 't/f', 'true', 1);
 INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VALUES (60, 200, 'A paging scheme does not suffer from external fragmentation.', 't/f', 'true', 1);
+
+INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VALUES (61, 500, 'ajdmkj fjvmfjvm', 'mcq', 'b', 2);
+INSERT dbo.Questions(Qst_id, Crs_id, Question, Type, Model_Answer, Qst_Grade) VALUES (62, 500, 'ajdmkj fjvmfjvm', 't/f', 'b', 2);
