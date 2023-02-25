@@ -1,7 +1,8 @@
 ﻿CREATE TABLE [dbo].[Exams] (
-  [Exm_id] [int] NOT NULL,
-  [Date] [date] NULL,
+  [Exm_id] [int] IDENTITY,
+  [Duration] [int] NULL,
   [Crs_id] [int] NULL,
+  [Date] [date] NULL,
   CONSTRAINT [PK_Exams] PRIMARY KEY CLUSTERED ([Exm_id])
 )
 ON [PRIMARY]
