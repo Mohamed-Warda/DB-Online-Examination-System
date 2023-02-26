@@ -3,7 +3,7 @@
   [Crs_id] [int] NULL,
   [Question] [varchar](200) NULL,
   [Type] [varchar](50) NULL,
-  [Model_Answer] [varchar](200) NULL,
+  [Model_Answer] [char](1) NULL,
   [Qst_Grade] [int] NULL,
   CONSTRAINT [PK_Questions] PRIMARY KEY CLUSTERED ([Qst_id])
 )

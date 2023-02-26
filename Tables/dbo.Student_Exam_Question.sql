@@ -2,7 +2,7 @@
   [Stu_id] [int] NOT NULL,
   [Exm_id] [int] NOT NULL,
   [Qst_id] [int] NOT NULL,
-  [Student_Answer] [varchar](150) NULL,
+  [Student_Answer] [char](1) NULL,
   CONSTRAINT [PK_Student_Exam_Question] PRIMARY KEY CLUSTERED ([Stu_id], [Exm_id], [Qst_id])
 )
 ON [PRIMARY]
