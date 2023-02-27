@@ -28,7 +28,7 @@ if  @id != -1
 		END
 		ELSE IF @type='t/f'
 		BEGIN
-			SELECT q.Qst_id, q.Question, q.Model_Answer 
+			SELECT q.Qst_id, q.Question, q.Model_Answer,'true' AS a ,'false' AS b ,'' AS c , '' AS d
 			FROM Questions q
 			WHERE q.Qst_id=@id
 		END
