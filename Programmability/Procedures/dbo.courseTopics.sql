@@ -9,5 +9,5 @@ FROM Topic , courses
 WHERE topic.Crs_id=Courses.Crs_id AND Courses.Crs_id=@course_id
 END 
 ELSE
-SELECT 'there is no course with this id' AS 'result'
+SELECT 'There is no course with this id' AS 'result'
 GO
