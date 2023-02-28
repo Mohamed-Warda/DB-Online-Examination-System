@@ -2,6 +2,7 @@
   [Stu_id] [int] NOT NULL,
   [Crs_id] [int] NOT NULL,
   [grade] [int] NULL,
+  [percentageGrade] [varchar](50) NULL,
   CONSTRAINT [PK_Student_Course] PRIMARY KEY CLUSTERED ([Stu_id], [Crs_id])
 )
 ON [PRIMARY]

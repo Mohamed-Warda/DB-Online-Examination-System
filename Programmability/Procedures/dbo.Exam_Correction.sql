@@ -17,6 +17,7 @@ BEGIN
 					DECLARE @CorrectAnswer CHAR(1);
 					DECLARE @StudentAnswer CHAR(1); 
 					DECLARE @gradeAnswer INT ;
+					DECLARE @totalGrade INT =0;
 					DECLARE @CrsId INT;
 
 					SELECT @CrsId=e.Crs_id
@@ -42,13 +43,14 @@ BEGIN
 
 							IF @StudentAnswer = @CorrectAnswer
 						    SET @TotalScore = @TotalScore + @gradeAnswer;
-
+							SET @totalGrade =@totalGrade+@gradeAnswer;
 
 							FETCH NEXT FROM question_cursor INTO @QuestionId, @CorrectAnswer,@gradeAnswer;
 						END
 
 					UPDATE  Student_Course 
-					SET grade = @TotalScore
+					SET grade = @TotalScore,
+					percentageGrade =CONCAT(((@TotalScore*100)/@totalGrade),'%') 
 					WHERE Stu_id=@StudentId AND Crs_id = @CrsId
 
 					CLOSE question_cursor;

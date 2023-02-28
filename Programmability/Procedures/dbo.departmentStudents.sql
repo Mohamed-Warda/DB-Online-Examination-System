@@ -1,6 +1,6 @@
 ﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
 GO
-Create PROC [dbo].[departmentStudents] @dept_id INT
+CREATE PROC [dbo].[departmentStudents] @dept_id INT
 AS
 IF EXISTS(SELECT did FROM department WHERE did = @dept_id)
 BEGIN 
