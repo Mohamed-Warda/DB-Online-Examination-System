@@ -24,8 +24,8 @@ Requirements:
 
 ## Authors
 
-- [@RadwaRadwaElgammal](https://github.com/RadwaElgammal)
-- [@iMahmouddAli](https://github.com/iMahmouddAli)
-- [@ZienabHesham](https://github.com/ZienabHesham)
-- [@AlaaMandor94](https://github.com/AlaaMandor94)
-
+- [@Radwa Elgammal](https://github.com/RadwaElgammal)
+- [@Mahmoud Ali](https://github.com/iMahmouddAli)
+- [@Zienab Hesham](https://github.com/ZienabHesham)
+- [@Alaa Mandor](https://github.com/AlaaMandor94)
+- [@Mohamed Warda](https://github.com/Mohamed-Warda)
